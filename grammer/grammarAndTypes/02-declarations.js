@@ -3,7 +3,7 @@ what is avariables?
 
 variables are named containers for sorting data.
 we can think of this containers as a resource we can call up on later.Each variable allow us to store data
-which could be a value or function, that we will want to reference back to
+which could be a value or a function, that we will want to reference back to
 */
 
 let a = 2;
@@ -20,11 +20,11 @@ console.log(a + b);
 
 /*
 restrictions with variables
--a variable must begain with a letter,underscore or dollar sign
+- a variable must begain with a letter,underscore or dollar sign
 - number may follow above character,but not come first in the name
-- java script is case sensetive- 'hello and 'Hello are different variables
--no space are allowed in viriable names
--camelline is best paractice for naming in js. this will help keep names of varibles
+- java script is case sensetive- 'hello' and 'Hello are different variables
+- no space are allowed in viriable names
+- camelline is best paractice for naming in js. this will help keep names of varibles
 readable
 ex:
     let myName = 'Jarome';
@@ -32,7 +32,7 @@ ex:
     let myname = 'jarome';
 */
 let startingWithLetter = 'test'; 'works';
-let _startingwithunderScore = 'test';'works';
+let _startingwithunderScore = 'test'; 'works';
 let $startingWithDollarSign ='test';'works';
 
 //let  5startingWithNumber= 'brakes';// can not start a variable name with a number
@@ -53,14 +53,13 @@ of js
 
 - const: also 'new' and declares unchangeable,or constant variable.
 the only limits of const variables is that once they are decleared/assigned their value will NEVE change.
-
 */
 
-var varTest = 'var variable';
+var variable = 'var variable';
 let letVariable = 'letVariable';
 const constVariable ='const Variable';
 
-console.log(variable, letVariable);
+console.log(variable, letVariable, constVariable);
 
 /*
 decoration are the left side of the assignment operator (=) with in a variable
@@ -80,3 +79,15 @@ console.log('intialization 1:', x);
 
 x=33;
 console.log('intialization 2:', x);
+
+let today 
+
+today= 'Awesome!';
+console.log(today, efa); // great! wonderful!
+
+efa = 'super';
+//console.log today, efa // error
+
+const example; //error
+example = 'Testing';
+console.log(example);
